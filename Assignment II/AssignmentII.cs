@@ -11,7 +11,6 @@ public class PrimeFactorCalculator
         List<int> factors = new List<int>();
         int n = number;
 
-        // Check for 2 as a factor repeatedly
         while (n % 2 == 0)
         {
             factors.Add(2);
